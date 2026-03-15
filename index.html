@@ -8,6 +8,25 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+        <div class="tab-container">
+            <ul>
+                <a class="list-link london" onclick="searchLondon(event)"><li class="list-item" >London</li></a>
+                <a class="list-link paris" onclick="searchParis()"><li class="list-item">Paris</li></a>
+                <a class="list-link tokyo" onclick="searchTokyo()"><li class="list-item">Tokyo</li></a>
+            </ul>
+            <div class="text-content-london">
+             <h1>London</h1>
+            <p class="text-data">London is the capital city of England.</p>
+            </div>
+            <div class="text-content-paris">
+                <h1>Paris</h1>
+                <p class="text-data">Paris is the capital of France</p>
+            </div>
+            <div class="text-content-tokyo">
+                <h1>Tokyo</h1>
+                <p class="text-data">Tokyo is the capital of Japan.</p>
+            </div>
+        </div>
+        <script src="app.js"></script>
     </body>
 </html>

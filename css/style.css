@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tab-container ul {
+    display: flex;
+    gap: 15px;
+    background-color: #f1f1f1;
+}
+
+.tab-container {
+    border: 1px solid #ccc;
+}
+
+.tab-container .list-item {
+    list-style: none;
+    cursor: pointer;
+}
+
+.tab-container .list-link {
+    text-decoration: none;
+    color: inherit;
+    padding: 15px 20px;
+}
+
+.text-content-london {
+    display: block;
+    margin-left: 20px;
+}
+
+.text-data {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text-content-paris {
+    display: none;
+}
+
+.text-content-tokyo {
+    display: none;
+}
+
+.list-link:hover {
+    background-color: #ddd;
+}
